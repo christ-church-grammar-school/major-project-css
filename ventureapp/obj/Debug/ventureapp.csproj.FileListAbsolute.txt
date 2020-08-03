@@ -1,0 +1,15 @@
+C:\User Program Files\CSS\ventureapp\bin\Debug\ventureapp.exe.config
+C:\User Program Files\CSS\ventureapp\bin\Debug\ventureapp.exe
+C:\User Program Files\CSS\ventureapp\bin\Debug\ventureapp.pdb
+C:\User Program Files\CSS\ventureapp\obj\Debug\ventureapp.csprojAssemblyReference.cache
+C:\User Program Files\CSS\ventureapp\obj\Debug\MainWindow.g.cs
+C:\User Program Files\CSS\ventureapp\obj\Debug\App.g.cs
+C:\User Program Files\CSS\ventureapp\obj\Debug\ventureapp_MarkupCompile.cache
+C:\User Program Files\CSS\ventureapp\obj\Debug\ventureapp_MarkupCompile.lref
+C:\User Program Files\CSS\ventureapp\obj\Debug\MainWindow.baml
+C:\User Program Files\CSS\ventureapp\obj\Debug\ventureapp.g.resources
+C:\User Program Files\CSS\ventureapp\obj\Debug\ventureapp.Properties.Resources.resources
+C:\User Program Files\CSS\ventureapp\obj\Debug\ventureapp.csproj.GenerateResource.cache
+C:\User Program Files\CSS\ventureapp\obj\Debug\ventureapp.csproj.CoreCompileInputs.cache
+C:\User Program Files\CSS\ventureapp\obj\Debug\ventureapp.exe
+C:\User Program Files\CSS\ventureapp\obj\Debug\ventureapp.pdb
