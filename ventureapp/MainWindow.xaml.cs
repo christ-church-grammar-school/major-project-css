@@ -24,5 +24,10 @@ namespace ventureapp
         {
             InitializeComponent();
         }
+
+        private void map(object sender, RoutedEventArgs e)
+        {
+            //do things
+        }
     }
 }
