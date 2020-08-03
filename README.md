@@ -4,5 +4,4 @@
 
 
 
-brave lance was a mistake
-gang gang
+brave lance was a mistake, gang gang
