@@ -4,4 +4,8 @@
 
 
 
-brave lance was a mistake
+brave lance was a mistake, gang gang
+
+so are civilians
+
+civilians are a mistake
