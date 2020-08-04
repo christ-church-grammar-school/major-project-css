@@ -4,8 +4,6 @@
 
 
 
-brave lance was a mistake, gang gang
+master axe was a mistake, gang gang
 
-so are civilians
-
-civilians are a mistake
+ive changed my mind civilians are okay
