@@ -67,6 +67,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+<<<<<<< HEAD
     <Page Include="MapWIndow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -76,6 +77,10 @@
     <Compile Include="MapWIndow.xaml.cs">
       <DependentUpon>MapWIndow.xaml</DependentUpon>
     </Compile>
+=======
+  </ItemGroup>
+  <ItemGroup>
+>>>>>>> 265d77eeac595105a46aabf1ba60ac8b94557877
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

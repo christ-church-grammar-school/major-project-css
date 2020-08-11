@@ -4,8 +4,12 @@
 
 
 
-brave lance was a mistake, gang gang
+master axe was a mistake, gang gang
 
-so are civilians
+haha i changed it before you noob
 
-civilians are a mistake
+thracia 776 is elitist trash
+
+ive changed my mind civilians are okay
+
+slow

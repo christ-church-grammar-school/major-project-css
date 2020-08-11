@@ -4,9 +4,33 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ventureapp"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Background="Yellow">
-        
+        mc:Ignorable="d" ResizeMode="CanMinimize"
+        Title="MainWindow">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="110*"/>
+            <RowDefinition Height="194*"/>
+            <RowDefinition Height="203*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="77*"/>
+            <ColumnDefinition Width="25*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#FFFE01" Offset="0.0" />
+                <GradientStop Color="#C001FD" Offset="1.0" />
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="MAIN PAGE" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Foreground="White" Height="60" Width="244" Margin="114,25,104,25"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Stretch" Height="174" Stroke="Black" VerticalAlignment="Stretch" Width="442" Grid.Column="1" Grid.Row="1" RadiusY="12" RadiusX="12" StrokeThickness="10" Margin="10"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="90,69,80,69" Grid.Row="1" TextWrapping="Wrap" Text="MM:DD:HH:MM" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Height="56" Width="292"/>
+        <Button HorizontalAlignment="Stretch" Margin="0" Grid.Row="1" VerticalAlignment="Stretch" Width="70" FontSize="16" Height="70" BorderBrush="Black" Foreground="White" Background="White" Click="map" BorderThickness="8">
+            <StackPanel>
+                <Image Source="images/map.png" />
+            </StackPanel>
+        </Button>
+
     </Grid>
 </Window>
