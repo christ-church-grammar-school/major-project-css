@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace ventureapp
 {
     /// <summary>
-    /// Interaction logic for MapWIndow.xaml
+    /// Interaction logic for MapPage.xaml
     /// </summary>
-    public partial class MapWIndow : Window
+    public partial class MapPage : Page
     {
-        public MapWIndow()
+        public MapPage()
         {
             InitializeComponent();
         }
