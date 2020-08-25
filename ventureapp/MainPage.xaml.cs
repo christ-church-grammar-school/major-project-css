@@ -16,21 +16,18 @@ using System.Windows.Shapes;
 namespace ventureapp
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for MainPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
-    { 
-        public MainWindow()
+    public partial class MainPage : Page
+    {
+        public MainPage()
         {
             InitializeComponent();
         }
-
-
-
         private void Map_Button_Clicked(object sender, RoutedEventArgs e)
         {
             //this.Navigate(new Uri("MapPage.xaml", UriKind.Relative));
-            //this.NavigationService.Navigate(new Uri("MapPage.xaml", UriKind.Relative));
+            this.NavigationService.Navigate(new Uri("MapPage.xaml", UriKind.Relative));
         }
     }
 }

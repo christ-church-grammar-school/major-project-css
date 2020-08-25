@@ -9,6 +9,16 @@
       Title="MapPage">
 
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="77"/>
+            <ColumnDefinition Width="25"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#FFFE01" Offset="0.0" />
+                <GradientStop Color="#C001FD" Offset="1.0" />
+            </LinearGradientBrush>
+        </Grid.Background>
     </Grid>
 </Page>
