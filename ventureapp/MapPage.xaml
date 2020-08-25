@@ -20,5 +20,15 @@
                 <GradientStop Color="#C001FD" Offset="1.0" />
             </LinearGradientBrush>
         </Grid.Background>
+        <Image Source="images/map-placeholder.png" HorizontalAlignment="Left" Height="429" Margin="1,11,-553.5,0" VerticalAlignment="Top" Width="578" RenderTransformOrigin="0.5,0.5" Grid.Column="2">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.099"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
 </Page>
