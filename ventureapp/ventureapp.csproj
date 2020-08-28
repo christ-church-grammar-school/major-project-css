@@ -125,5 +125,8 @@
   <ItemGroup>
     <Resource Include="images\map.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="first-aid.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

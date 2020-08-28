@@ -22,7 +22,8 @@
                 <GradientStop Color="#C001FD" Offset="1.0" />
             </LinearGradientBrush>
         </Grid.Background>
-        <Image Source="images/map-placeholder.png" HorizontalAlignment="Left" Height="393" Margin="70,30,0,0" VerticalAlignment="Top" Width="601" RenderTransformOrigin="0.5,0.5" Cursor="" OpacityMask="#FF9C4E4E" Grid.ColumnSpan="4" Grid.Column="1">
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="INTERACTIVE MAP" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Foreground="White" Height="63" Width="403" Margin="93,31,177,356" Grid.ColumnSpan="2" Grid.Column="3"/>
+        <Image Source="images/map-placeholder.png" HorizontalAlignment="Left" Height="268" Margin="123,117,0,0" VerticalAlignment="Top" Width="340" RenderTransformOrigin="0.5,0.5" Cursor="" OpacityMask="#FF9C4E4E" Grid.ColumnSpan="2" Grid.Column="3">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
