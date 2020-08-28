@@ -22,7 +22,7 @@
                 <GradientStop Color="#C001FD" Offset="1.0" />
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="MAIN PAGE" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Foreground="White" Height="69" Width="298" Margin="157,26,218,355" Grid.ColumnSpan="2" Grid.Column="3"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="QUIZZES" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Foreground="White" Height="69" Width="298" Margin="157,26,218,355" Grid.ColumnSpan="2" Grid.Column="3"/>
         <Image Source="images/quiz-placeholder.png" HorizontalAlignment="Left" Height="393" Margin="0,103,0,-46" VerticalAlignment="Top" Width="601" RenderTransformOrigin="0.5,0.5" Cursor="" OpacityMask="#FF9C4E4E" Grid.ColumnSpan="3" Grid.Column="2">
             <Image.RenderTransform>
                 <TransformGroup>
