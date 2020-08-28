@@ -16,14 +16,13 @@ using System.Windows.Shapes;
 namespace ventureapp
 {
     /// <summary>
-    /// Interaction logic for MapPage.xaml
+    /// Interaction logic for FirstAidPage.xaml
     /// </summary>
-    public partial class MapPage : Page
+    public partial class FirstAidPage : Page
     {
-        public MapPage()
+        public FirstAidPage()
         {
             InitializeComponent();
         }
     }
-
 }

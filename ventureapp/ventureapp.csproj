@@ -55,6 +55,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="FirstAidPage.xaml.cs">
+      <DependentUpon>FirstAidPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="QuizPage.xaml.cs">
+      <DependentUpon>QuizPage.xaml</DependentUpon>
+    </Compile>
+    <Page Include="FirstAidPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -75,6 +85,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="MapPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="QuizPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

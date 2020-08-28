@@ -1,4 +1,4 @@
-﻿<Page x:Class="ventureapp.MapPage"
+﻿<Page x:Class="ventureapp.QuizPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:ventureapp"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="MapPage">
+      Title="QuizPage">
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -22,7 +22,7 @@
                 <GradientStop Color="#C001FD" Offset="1.0" />
             </LinearGradientBrush>
         </Grid.Background>
-        <Image Source="images/map-placeholder.png" HorizontalAlignment="Left" Height="393" Margin="70,30,0,0" VerticalAlignment="Top" Width="601" RenderTransformOrigin="0.5,0.5" Cursor="" OpacityMask="#FF9C4E4E" Grid.ColumnSpan="4" Grid.Column="1">
+        <Image Source="images/quiz-placeholder.png" HorizontalAlignment="Left" Height="393" Margin="71,91,0,-34" VerticalAlignment="Top" Width="601" RenderTransformOrigin="0.5,0.5" Cursor="" OpacityMask="#FF9C4E4E" Grid.ColumnSpan="4" Grid.Column="1">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
