@@ -31,12 +31,12 @@ namespace ventureapp
 
         private void WeightCalcReal_Button_Clicked(object sender, RoutedEventArgs e)
         {
-
+            this.NavigationService.Navigate(new Uri("WeightCalcRealPage.xaml", UriKind.Relative));
         }
 
         private void WeightCalcInfo_Button_Clicked(object sender, RoutedEventArgs e)
         {
-
+            this.NavigationService.Navigate(new Uri("WeightCalcInfoPage.xaml", UriKind.Relative));
         }
     }
 }
