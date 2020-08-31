@@ -64,6 +64,23 @@
     <Compile Include="WeightCalcRealPage.xaml.cs">
       <DependentUpon>WeightCalcRealPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FirstAidPage.xaml.cs">
+      <DependentUpon>FirstAidPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FoodPage.xaml.cs">
+      <DependentUpon>FoodPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="QuizPage.xaml.cs">
+      <DependentUpon>QuizPage.xaml</DependentUpon>
+    </Compile>
+    <Page Include="FirstAidPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FoodPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -96,6 +113,7 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="WeightCalcRealPage.xaml">
+    <Page Include="QuizPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -137,6 +155,12 @@
     <Resource Include="images\backpack.png" />
     <Resource Include="images\House.png" />
     <Resource Include="images\QuestionMark.png" />
+   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="first-aid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="recipe.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
