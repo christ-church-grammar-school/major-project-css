@@ -55,15 +55,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="WeightCalcInfoPage.xaml.cs">
-      <DependentUpon>WeightCalcInfoPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="WeightCalcPage.xaml.cs">
-      <DependentUpon>WeightCalcPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="WeightCalcRealPage.xaml.cs">
-      <DependentUpon>WeightCalcRealPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="FirstAidPage.xaml.cs">
       <DependentUpon>FirstAidPage.xaml</DependentUpon>
     </Compile>
@@ -104,15 +95,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WeightCalcInfoPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="WeightCalcPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="WeightCalcRealPage.xaml">
     <Page Include="QuizPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -151,10 +133,6 @@
     <Resource Include="images\map.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="images\back.png" />
-    <Resource Include="images\backpack.png" />
-    <Resource Include="images\House.png" />
-    <Resource Include="images\QuestionMark.png" />
     <Resource Include="first-aid.png" />
   </ItemGroup>
   <ItemGroup>
