@@ -24,5 +24,10 @@ namespace ventureapp
         {
             InitializeComponent();
         }
+
+        private void Home_Button_Clicked(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("MainPage.xaml", UriKind.Relative));
+        }
     }
 }

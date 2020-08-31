@@ -85,20 +85,12 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-      <SubType>Code</SubType>
     </Compile>
     <Page Include="MapPage.xaml">
       <SubType>Designer</SubType>
@@ -154,10 +146,16 @@
     <Resource Include="images\map.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="first-aid.png" />
+    <Resource Include="images\back.png" />
+    <Resource Include="images\backpack.png" />
+    <Resource Include="images\House.png" />
+    <Resource Include="images\map-placeholder.PNG" />
+    <Resource Include="images\QuestionMark.png" />
+    <Resource Include="images\quiz-placeholder.PNG" />
+    <Resource Include="images\recipe.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="recipe.jpeg" />
+    <Resource Include="images\first-aid.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
