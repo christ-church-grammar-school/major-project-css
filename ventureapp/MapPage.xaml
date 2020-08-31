@@ -13,26 +13,12 @@
             <ColumnDefinition Width="25"/>
             <ColumnDefinition Width="77"/>
             <ColumnDefinition Width="25"/>
-            <ColumnDefinition Width="293*"/>
-            <ColumnDefinition Width="380*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                 <GradientStop Color="#FFFE01" Offset="0.0" />
-                <GradientStop Color="#FFC100FF" Offset="1.0" />
+                <GradientStop Color="#C001FD" Offset="1.0" />
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="INTERACTIVE MAP" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Foreground="White" Height="63" Width="403" Margin="70,25,200,362" Grid.ColumnSpan="2" Grid.Column="3"/>
-        <Image Source="images/map-placeholder.png" HorizontalAlignment="Left" Height="268" Margin="262,142,0,0" VerticalAlignment="Top" Width="340" RenderTransformOrigin="0.5,0.5" Cursor="" OpacityMask="#FF9C4E4E" Grid.ColumnSpan="2" Grid.Column="3">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-0.099"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
-        <TextBlock Grid.ColumnSpan="3" Grid.Column="1" HorizontalAlignment="Left" Height="293" Margin="30,128,0,0" TextWrapping="Wrap" Text="Lorem ipsum dolor pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum." VerticalAlignment="Top" Width="219" Foreground="White"/>
     </Grid>
 </Page>
