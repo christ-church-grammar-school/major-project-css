@@ -64,6 +64,15 @@
     <Compile Include="QuizPage.xaml.cs">
       <DependentUpon>QuizPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WeightCalcInfoPage.xaml.cs">
+      <DependentUpon>WeightCalcInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WeightCalcPage.xaml.cs">
+      <DependentUpon>WeightCalcPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WeightCalcRealPage.xaml.cs">
+      <DependentUpon>WeightCalcRealPage.xaml</DependentUpon>
+    </Compile>
     <Page Include="FirstAidPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -98,6 +107,18 @@
     <Page Include="QuizPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WeightCalcInfoPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WeightCalcPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WeightCalcRealPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
