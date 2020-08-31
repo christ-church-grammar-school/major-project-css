@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:ventureapp"
       mc:Ignorable="d" 
       d:DesignHeight="507" d:DesignWidth="800"
-      Title="WeigthCalcPage">
+      Title="WeigthCalcPage" Width="800" Height="507">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="110*"/>
@@ -55,7 +55,7 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <TextBlock HorizontalAlignment="Left" Height="55" Margin="81,40,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="318" FontSize="16" FontFamily="Consolas" Foreground="White" Grid.ColumnSpan="2"><Run Text="Information About "/><Run Text="Weight "/><Run Text="Calculator"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Height="55" Margin="287.5,40,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="268" FontSize="16" FontFamily="Consolas" Foreground="White" Grid.ColumnSpan="2" Grid.Column="1" Text="Actual Weight Calculator"/>
+        <TextBlock HorizontalAlignment="Left" Height="55" Margin="0.5,40,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" FontSize="16" FontFamily="Consolas" Foreground="White" Grid.Column="1"><Run Text="Information About "/><Run Text="Weight "/><Run Text="Calculator"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="55" Margin="346.5,40,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" FontSize="16" FontFamily="Consolas" Foreground="White" Grid.Column="1" Text="Actual Weight Calculator"/>
     </Grid>
 </Page>

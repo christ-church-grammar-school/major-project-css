@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:ventureapp"
       mc:Ignorable="d" 
       d:DesignHeight="507" d:DesignWidth="800"
-      Title="MainPage">
+      Title="MainPage" Width="800" Height="507">
 
     <Grid>
         <Grid.RowDefinitions>
