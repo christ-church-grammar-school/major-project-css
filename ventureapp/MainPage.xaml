@@ -30,7 +30,47 @@
         <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="90,69,80,69" Grid.Row="1" TextWrapping="Wrap" Text="MM:DD:HH:MM" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Height="56" Width="292"/>
         <Button x:Name="Map_Button" HorizontalAlignment="Stretch" Margin="0" Grid.Row="1" VerticalAlignment="Stretch" Width="70" FontSize="16" Height="70" BorderBrush="Black" Foreground="White" Background="White" Click="Map_Button_Clicked" BorderThickness="8">
             <StackPanel>
-                <Image Source="images/map.png" />
+                <Image Source="images/mapicon.png" />
+            </StackPanel>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="FirstAid_Button" HorizontalAlignment="Stretch" Margin="118,10,454.5,123" Grid.Row="2" VerticalAlignment="Stretch" Width="70" FontSize="16" Height="70" BorderBrush="Black" Foreground="White" Background="White" Click="FirstAid_Button_Clicked" BorderThickness="8" Grid.ColumnSpan="2">
+            <StackPanel>
+                <Image Source="images/firstaid.png" />
+            </StackPanel>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="Food_Button" HorizontalAlignment="Stretch" Margin="206.5,48,208.5,85" Grid.Row="2" VerticalAlignment="Stretch" Width="70" FontSize="16" Height="70" BorderBrush="Black" Foreground="White" Background="White" Click="Food_Button_Clicked" BorderThickness="8" Grid.Column="1">
+            <StackPanel>
+                <Image Source="images/food.png" />
+            </StackPanel>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="Calc_Button" HorizontalAlignment="Stretch" Margin="450.5,10,122,123" Grid.Row="2" VerticalAlignment="Stretch" Width="70" FontSize="16" Height="70" BorderBrush="Black" Foreground="White" Background="White" Click="Calc_Button_Clicked" BorderThickness="8" Grid.ColumnSpan="2" Grid.Column="1">
+            <StackPanel>
+                <Image Source="images/calc.png" />
+            </StackPanel>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="Quiz_Button" HorizontalAlignment="Stretch" Margin="38.5,62,49,62" Grid.Row="1" VerticalAlignment="Stretch" Width="70" FontSize="16" Height="70" BorderBrush="Black" Foreground="White" Background="White" Click="Quiz_Button_Clicked" BorderThickness="8" Grid.Column="2">
+            <StackPanel>
+                <Image Source="images/quiz.png" />
             </StackPanel>
             <Button.Resources>
                 <Style TargetType="Border">

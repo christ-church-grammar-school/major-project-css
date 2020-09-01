@@ -143,9 +143,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="images\map.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="images\back.png" />
     <Resource Include="images\backpack.png" />
     <Resource Include="images\House.png" />
@@ -156,6 +153,17 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="images\first-aid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\mapicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\firstaid.png" />
+    <Resource Include="images\food.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\calc.png" />
+    <Resource Include="images\quiz.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

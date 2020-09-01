@@ -26,8 +26,27 @@ namespace ventureapp
         }
         private void Map_Button_Clicked(object sender, RoutedEventArgs e)
         {
-            //this.Navigate(new Uri("MapPage.xaml", UriKind.Relative));
             this.NavigationService.Navigate(new Uri("MapPage.xaml", UriKind.Relative));
+        }
+
+        private void Food_Button_Clicked(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("FoodPage.xaml", UriKind.Relative));
+        }
+
+        private void FirstAid_Button_Clicked(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("FirstAidPage.xaml", UriKind.Relative));
+        }
+
+        private void Calc_Button_Clicked(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("WeightCalcPage.xaml", UriKind.Relative));
+        }
+
+        private void Quiz_Button_Clicked(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("QuizPage.xaml", UriKind.Relative));
         }
     }
 }
