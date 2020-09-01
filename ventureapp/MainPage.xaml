@@ -27,7 +27,7 @@
         </Grid.Background>
         <TextBlock Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="MAIN PAGE" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Foreground="White" Height="60" Width="244" Margin="114,25,104,25"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Stretch" Height="174" Stroke="Black" VerticalAlignment="Stretch" Width="442" Grid.Column="1" Grid.Row="1" RadiusY="12" RadiusX="12" StrokeThickness="10" Margin="10"/>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="90,69,80,69" Grid.Row="1" TextWrapping="Wrap" Text="MM:DD:HH:MM" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Height="56" Width="292"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="139.5,62,131.5,76" Grid.Row="1" TextWrapping="Wrap" Text="DD:HH:MM" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Height="56" Width="214"/>
         <Button x:Name="Map_Button" HorizontalAlignment="Stretch" Margin="0" Grid.Row="1" VerticalAlignment="Stretch" Width="70" FontSize="16" Height="70" BorderBrush="Black" Foreground="White" Background="White" Click="Map_Button_Clicked" BorderThickness="8">
             <StackPanel>
                 <Image Source="images/mapicon.png" />
