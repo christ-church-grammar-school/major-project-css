@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -12,6 +13,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
+
 
 namespace ventureapp
 {
@@ -23,7 +26,13 @@ namespace ventureapp
         public MainPage()
         {
             InitializeComponent();
+            DateTime daysLeft = DateTime.Parse("9/8/2021 12:00:01 AM");
+            DateTime startDate = DateTime.Now;
+            TimeSpan t = daysLeft - startDate;
+            string countDown = string.Format("{0} Days, {1} Hours, {2} Minutes, {3} Seconds.", t.Days, t.Hours, t.Minutes, t.Seconds);
+            timer.Text = countDown;
         }
+
         private void Map_Button_Clicked(object sender, RoutedEventArgs e)
         {
             this.NavigationService.Navigate(new Uri("MapPage.xaml", UriKind.Relative));
