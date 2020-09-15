@@ -20,10 +20,10 @@
             <ColumnDefinition Width="25*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
-            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                <GradientStop Color="#FFFE01" Offset="0.0" />
-                <GradientStop Color="#C001FD" Offset="1.0" />
-            </LinearGradientBrush>
+            <RadialGradientBrush>
+                <GradientStop Color="#FFFFA801" Offset="0.643"/>
+                <GradientStop Color="#FF52CF0B" Offset="0.732"/>
+            </RadialGradientBrush>
         </Grid.Background>
         <TextBlock Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="MAIN PAGE" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Foreground="White" Height="60" Width="244" Margin="114,25,104,25"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Stretch" Height="174" Stroke="Black" VerticalAlignment="Stretch" Width="442" Grid.Column="1" Grid.Row="1" RadiusY="12" RadiusX="12" StrokeThickness="10" Margin="10"/>

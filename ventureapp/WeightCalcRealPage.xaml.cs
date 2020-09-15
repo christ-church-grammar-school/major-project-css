@@ -23,6 +23,29 @@ namespace ventureapp
         public WeightCalcRealPage()
         {
             InitializeComponent();
+
+            Dictionary<string, string> items = new Dictionary<string, string>();
+
+            items.Add("Sleeping Bag", "sb");
+            items.Add("Sleeping Mat", "sm");
+            items.Add("Ground Sheet", "gs");
+            items.Add("Torch", "t");
+            items.Add("Water Bottle(s)", "wb");
+            items.Add("Shirts", "s");
+            items.Add("Shorts/Pants", "s/p");
+            items.Add("Jackets/Jumpers", "j/j");
+            items.Add("Hootchie", "h");
+            items.Add("Contraband", "c");
+            KeyValuePair<string, string> pair;
+        }
+        private void WeightCalcBack_Button_Clicked(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("WeightCalcPage.xaml", UriKind.Relative));
+        }
+
+        private void WeightCalcHome_Button_Clicked(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("MainPage.xaml", UriKind.Relative));
         }
     }
 }
