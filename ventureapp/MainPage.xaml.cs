@@ -40,7 +40,7 @@ namespace ventureapp
         static string ConvertSectoDay(int n)
         {
             int day = n / (24 * 3600);
-            n = n % (24 * 3600);
+            n %= 24 * 3600;
             int hour = n / 3600;
             n %= 3600;
             int minutes = n / 60;
@@ -76,6 +76,7 @@ namespace ventureapp
 
         private void Worker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
+            timer.Text = e.Result.ToString();
         }
 
 

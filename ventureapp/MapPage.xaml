@@ -17,10 +17,10 @@
             <ColumnDefinition Width="380*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
-            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                <GradientStop Color="#FFFE01" Offset="0.0" />
-                <GradientStop Color="#FFC100FF" Offset="1.0" />
-            </LinearGradientBrush>
+            <RadialGradientBrush>
+                <GradientStop Color="#308bff" Offset="0.4"/>
+                <GradientStop Color="#ff7591" Offset="1"/>
+            </RadialGradientBrush>
         </Grid.Background>
         <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="INTERACTIVE MAP" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Foreground="White" Height="63" Width="403" Margin="70,25,200,362" Grid.ColumnSpan="2" Grid.Column="3"/>
         <Image Source="images/map-placeholder.png" HorizontalAlignment="Left" Height="268" Margin="262,142,0,0" VerticalAlignment="Top" Width="340" RenderTransformOrigin="0.5,0.5" Cursor="" OpacityMask="#FF9C4E4E" Grid.ColumnSpan="2" Grid.Column="3">

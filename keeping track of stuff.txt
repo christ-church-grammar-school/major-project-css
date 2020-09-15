@@ -1,0 +1,18 @@
+gradients:
+
+main page:
+(radial)
+colour: #ffdb55, offset 0.4
+colour: #29cb75 offset 1
+
+map page:
+(radial)
+colour: #308bff offset 0.4
+colour: #ff7591 offset 1
+
+Weight calc pages:
+(linear)
+colour: #00ff91 offset 0
+colour: #0094ff offset 1
+
+

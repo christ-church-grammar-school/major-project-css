@@ -21,8 +21,8 @@
         </Grid.ColumnDefinitions>
         <Grid.Background>
             <RadialGradientBrush>
-                <GradientStop Color="#FFFFA801" Offset="0.643"/>
-                <GradientStop Color="#FF52CF0B" Offset="0.732"/>
+                <GradientStop Color="#ffdb55" Offset="0.4"/>
+                <GradientStop Color="#29cb75" Offset="1"/>
             </RadialGradientBrush>
         </Grid.Background>
         <TextBlock Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="VENTURE APP" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Foreground="White" Height="60" Width="301" Margin="101.5,25,82.5,25"/>
