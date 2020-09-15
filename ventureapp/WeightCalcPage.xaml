@@ -20,14 +20,14 @@
         </Grid.ColumnDefinitions>
         <Grid.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                <GradientStop Color="#FFFE01" Offset="0.0" />
-                <GradientStop Color="#C001FD" Offset="1.0" />
+                <GradientStop Color="#00FF91" Offset="0.0" />
+                <GradientStop Color="#0094FF" Offset="1.0" />
             </LinearGradientBrush>
         </Grid.Background>
         <TextBlock x:Name="Title" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Weight Calc Menu" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Foreground="White" Height="60" Width="425" Margin="0,25" Grid.Column="1"/>
         <Button x:Name="WeightCalc_Button" HorizontalAlignment="Stretch" Margin="52, 94, 363, 30" Grid.Row="1" VerticalAlignment="Stretch" Width="70" FontSize="16" Height="70" BorderBrush="Black" Foreground="White" Background="White" Click="WeightCalcInfo_Button_Clicked" BorderThickness="8" Grid.Column="1">
             <StackPanel>
-                <Image Source="images/QuestionMark.png" />
+                <Image Source="images/QuestionMark.png" Height="52" />
             </StackPanel>
             <Button.Resources>
                 <Style TargetType="Border">
@@ -37,7 +37,7 @@
         </Button>
         <Button x:Name="WeightCalcReal_Button" HorizontalAlignment="Stretch" Margin="363, 94, 52, 30" Grid.Row="1" VerticalAlignment="Stretch" Width="70" FontSize="16" Height="70" BorderBrush="Black" Foreground="White" Background="White" Click="WeightCalcReal_Button_Clicked" BorderThickness="8" Grid.Column="1">
             <StackPanel>
-                <Image Source="images/backpack.png" />
+                <Image Source="images/backpack.png" Height="51" Width="52" />
             </StackPanel>
             <Button.Resources>
                 <Style TargetType="Border">

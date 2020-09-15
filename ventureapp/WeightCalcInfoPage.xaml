@@ -21,8 +21,8 @@ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         </Grid.ColumnDefinitions>
         <Grid.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                <GradientStop Color="#FFFE01" Offset="0.0" />
-                <GradientStop Color="#C001FD" Offset="1.0" />
+                <GradientStop Color="#00FF91" Offset="0.0" />
+                <GradientStop Color="#0094FF" Offset="1.0" />
             </LinearGradientBrush>
         </Grid.Background>
         <TextBlock x:Name="Title" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Weight Calc Info" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Foreground="White" Height="60" Width="425" Margin="0,25" Grid.Column="1"/>
