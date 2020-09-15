@@ -60,7 +60,7 @@ namespace ventureapp
 
         private void Worker_DoWork(object sender, DoWorkEventArgs e)
         {
-            DateTime daysLeft = DateTime.Parse("11/17/2020 07:00:00 AM");
+            DateTime daysLeft = DateTime.Parse("17/11/2020 07:00:00 AM");
             int i = 1;
             while (i > 0)
             {
