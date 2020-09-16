@@ -10,9 +10,9 @@ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 
     <Grid Width="800" Height="507">
         <Grid.RowDefinitions>
-            <RowDefinition Height="110*"/>
-            <RowDefinition Height="194*"/>
-            <RowDefinition Height="203*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="25*"/>
@@ -21,12 +21,12 @@ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         </Grid.ColumnDefinitions>
         <Grid.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                <GradientStop Color="#FFFE01" Offset="0.0" />
-                <GradientStop Color="#C001FD" Offset="1.0" />
+                <GradientStop Color="#00FF91" Offset="0.0" />
+                <GradientStop Color="#0094FF" Offset="1.0" />
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBlock x:Name="Title" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Weight Calc Info" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Foreground="White" Height="60" Width="425" Margin="0,25" Grid.Column="1"/>
-        <Button x:Name="WeightCalcHome_Button" HorizontalAlignment="Stretch" Margin="40,15,47.5,25" Grid.Row="0" VerticalAlignment="Stretch" Width="70" FontSize="16" Height="70" BorderBrush="Black" Foreground="White" Background="White" Click="WeightCalcHome_Button_Clicked" BorderThickness="8">
+        <TextBlock x:Name="Title" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Weight Calc Info" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Foreground="White" Height="60" Width="424" Margin="30.5,24,30.5,423" Grid.Column="1" Grid.RowSpan="2"/>
+        <Button x:Name="WeightCalcHome_Button" HorizontalAlignment="Stretch" Margin="41,24,46.5,413" Grid.Row="1" VerticalAlignment="Stretch" FontSize="16" BorderBrush="Black" Foreground="White" Background="White" Click="WeightCalcHome_Button_Clicked" BorderThickness="8" Width="70" Height="70">
             <StackPanel>
                 <Image Source="images/House.png" />
             </StackPanel>
@@ -36,7 +36,7 @@ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                 </Style>
             </Button.Resources>
         </Button>
-        <Button x:Name="WeightCalcBack_Button" HorizontalAlignment="Stretch" Margin="45.5,15,42,25" Grid.Row="0" VerticalAlignment="Stretch" Width="70" FontSize="16" Height="70" BorderBrush="Black" Foreground="White" Background="White" Click="WeightCalcBack_Button_Clicked" BorderThickness="8" Grid.Column="2">
+        <Button x:Name="WeightCalcBack_Button" HorizontalAlignment="Stretch" Margin="44.5,24,43,413" Grid.Row="1" VerticalAlignment="Stretch" FontSize="16" BorderBrush="Black" Foreground="White" Background="White" Click="WeightCalcBack_Button_Clicked" BorderThickness="8" Grid.Column="2" Width="70" Height="70">
             <StackPanel>
                 <Image Source="images/back.png" />
             </StackPanel>
@@ -46,6 +46,6 @@ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                 </Style>
             </Button.Resources>
         </Button>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="384" Margin="0.5,123,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="The Weight Calculator Function is not a literal calculator per se. Instead it serves as a function to advise students on how to pack" VerticalAlignment="Top" Width="484" FontSize="24" FontFamily="Consolas" Foreground="White"/>
     </Grid>
-
 </Page>
