@@ -25,7 +25,7 @@
         </Grid.Background>
         <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="INTERACTIVE MAP" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Foreground="White" Height="63" Width="403" Margin="70,30,200,414" Grid.ColumnSpan="2" Grid.Column="3"/>
         <TextBlock Grid.ColumnSpan="3" Grid.Column="1" HorizontalAlignment="Left" Height="293" Margin="30,128,0,0" TextWrapping="Wrap" Text="Lorem ipsum dolor pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum." VerticalAlignment="Top" Width="219" Foreground="White"/>
-        <m:Map CredentialsProvider="IjlILWcnBQZ26DZ6yuVV~vuE96MoIuRAj2sJPXfAvfQ~AjuElcJyo6tPkKjGIbO0k6UBh9C1Mylxp8sQk0sXsJS72dds-GglFjIHFGpl5cIz" Mode="Aerial" Grid.Column="3" Margin="205,108,34,10" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5">
+        <m:Map CredentialsProvider="IjlILWcnBQZ26DZ6yuVV~vuE96MoIuRAj2sJPXfAvfQ~AjuElcJyo6tPkKjGIbO0k6UBh9C1Mylxp8sQk0sXsJS72dds-GglFjIHFGpl5cIz" Mode="Aerial" Grid.Column="3" Margin="209,89,30,29" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5">
             <m:Map.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
