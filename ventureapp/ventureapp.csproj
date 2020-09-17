@@ -228,4 +228,7 @@
   </Target>
   <Import Project="packages\CefSharp.Common.84.4.10\build\CefSharp.Common.targets" Condition="Exists('packages\CefSharp.Common.84.4.10\build\CefSharp.Common.targets')" />
   <Import Project="packages\CefSharp.Wpf.84.4.10\build\CefSharp.Wpf.targets" Condition="Exists('packages\CefSharp.Wpf.84.4.10\build\CefSharp.Wpf.targets')" />
+  <PropertyGroup>
+    <PreBuildEvent>nuget restore</PreBuildEvent>
+  </PropertyGroup>
 </Project>
