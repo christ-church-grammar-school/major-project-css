@@ -73,7 +73,6 @@ namespace ventureapp
                 worker.ReportProgress((int)t.TotalSeconds);
                 Thread.Sleep(1000);
             }
-            
         }
 
         private void Worker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
