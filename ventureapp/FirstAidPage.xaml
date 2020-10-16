@@ -8,7 +8,7 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="FirstAidPage">
 
-    <Grid Width="800" Margin="0,0,0,-59">
+    <Grid Width="800" Margin="0,0,0,-59" Height="508">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="25"/>
             <ColumnDefinition Width="77"/>

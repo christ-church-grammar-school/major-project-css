@@ -26,16 +26,16 @@ namespace ventureapp
 
             Dictionary<string, string> items = new Dictionary<string, string>();
 
-            items.Add("Sleeping Bag", "sb");
-            items.Add("Sleeping Mat", "sm");
-            items.Add("Ground Sheet", "gs");
-            items.Add("Torch", "t");
-            items.Add("Water Bottle(s)", "wb");
-            items.Add("Shirts", "s");
-            items.Add("Shorts/Pants", "s/p");
-            items.Add("Jackets/Jumpers", "j/j");
-            items.Add("Hootchie", "h");
-            items.Add("Contraband", "c");
+            items.Add("Sleeping Bag", "10kg");
+            items.Add("Sleeping Mat", "20kg");
+            items.Add("Ground Sheet", "30kg");
+            items.Add("Torch", "40kg");
+            items.Add("Water Bottle(s)", "50kg");
+            items.Add("Shirts", "60kg");
+            items.Add("Shorts/Pants", "70kg");
+            items.Add("Jackets/Jumpers", "80kg");
+            items.Add("Hootchie", "90kg");
+            items.Add("Contraband", "100kg");
             KeyValuePair<string, string> pair;
         }
         private void WeightCalcBack_Button_Clicked(object sender, RoutedEventArgs e)
