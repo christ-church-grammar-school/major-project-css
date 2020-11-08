@@ -57,7 +57,7 @@
         <CheckBox x:Name="group10" Content="Group 10" Grid.Column="3" HorizontalAlignment="Left" Height="26" Margin="23,155,0,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="1.819,-2.394" Checked="selectGroupTen"/>
         <CheckBox x:Name="group11" Content="Group 11" Grid.Column="3" HorizontalAlignment="Left" Height="26" Margin="23,180,0,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="1.819,-2.394" Checked="selectGroupEleven"/>
         <CheckBox x:Name="group12" Content="Group 12" Grid.Column="3" HorizontalAlignment="Left" Height="26" Margin="23,206,0,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="1.819,-2.394" Checked="selectGroup12"/>
-        <CheckBox Content="Group 13" Grid.Column="3" HorizontalAlignment="Left" Height="26" Margin="23,232,0,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="1.819,-2.394"/>
-        <CheckBox Content="Group 14" Grid.Column="3" HorizontalAlignment="Left" Height="26" Margin="23,258,0,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="1.819,-2.394"/>
+        <CheckBox x:Name="group13" Content="Group 13" Grid.Column="3" HorizontalAlignment="Left" Height="26" Margin="23,232,0,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="1.819,-2.394" Checked="selectGroupThirteen"/>
+        <CheckBox x:Name="group14" Content="Group 14" Grid.Column="3" HorizontalAlignment="Left" Height="26" Margin="23,258,0,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="1.819,-2.394" Checked="selectGroup14"/>
     </Grid>
 </Page>
