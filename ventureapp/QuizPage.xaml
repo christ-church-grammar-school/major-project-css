@@ -33,6 +33,5 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <wpf:ChromiumWebBrowser x:Name="Browser" Address="https://www.dhmo.org/facts.html" Grid.ColumnSpan="5" Margin="10"/>
     </Grid>
 </Page>

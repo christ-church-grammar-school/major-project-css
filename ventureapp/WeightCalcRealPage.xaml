@@ -46,5 +46,15 @@ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                 </Style>
             </Button.Resources>
         </Button>
+        <TextBlock x:Name="WeightTotal" HorizontalAlignment="Left" Height="36" Margin="138.5,111,0,0" Grid.RowSpan="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" Text="Current Total Weight = " FontFamily="Consolas" Grid.Column="1" Foreground="White"/>
+        <TextBlock x:Name="ItemsTotal" Grid.Column="1" HorizontalAlignment="Left" Margin="138.5,136,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="Items Packed Include:" VerticalAlignment="Top" Foreground="White" Width="170" FontFamily="Consolas"/>
+        <TextBlock x:Name="Required_Items" Grid.Column="1" HorizontalAlignment="Left" Margin="399.5,108,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="Required Items Include:" VerticalAlignment="Top" Foreground="White" Width="170" Grid.ColumnSpan="2" FontFamily="Consolas"/>
+        <TextBox x:Name="AddOn" HorizontalAlignment="Left" Height="23" Margin="41,152,0,0" Grid.RowSpan="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="{x:Null}" FontFamily="Consolas" Foreground="White" Grid.ColumnSpan="2" BorderBrush="White"/>
+        <Button x:Name="AddOnButton" Grid.ColumnSpan="2" Content="Add To Packed Items" HorizontalAlignment="Left" Height="49" Margin="26,193,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="153" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Consolas" Click="AddOnButton_Click"/>
+        <TextBlock x:Name="Format" HorizontalAlignment="Left" Height="19" Margin="10,256,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="Format is [Item, Weight No.]" VerticalAlignment="Top" Width="194" FontFamily="Consolas" Foreground="White" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="Number" Grid.Column="2" HorizontalAlignment="Left" Height="47" Margin="265.5,175,-186,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="78"/>
+        <TextBlock x:Name="Limit" HorizontalAlignment="Left" Height="45" Margin="61,291,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="The Maximum Weight is 75kg" VerticalAlignment="Top" Width="100" FontFamily="Consolas" Foreground="White" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="State" HorizontalAlignment="Left" Height="53" Margin="10,341,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="You Are Currently:" VerticalAlignment="Top" Width="215" Foreground="White" FontFamily="Consolas" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="WNum" Grid.Column="2" HorizontalAlignment="Left" Margin="240.5,310,-162,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="79"/>
     </Grid>
 </Page>
