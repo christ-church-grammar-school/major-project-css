@@ -27,7 +27,7 @@
         </Grid.Background>
         <TextBlock Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="VENTURE APP" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Foreground="White" Height="60" Width="301" Margin="101.5,25,82.5,25"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Stretch" Height="174" Stroke="Black" VerticalAlignment="Stretch" Width="442" Grid.Column="1" Grid.Row="1" RadiusY="12" RadiusX="12" StrokeThickness="10" Margin="10"/>
-        <TextBlock x:Name="timer" Grid.Column="1" HorizontalAlignment="Center" Margin="50.5,34,35.5,22" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Center" FontFamily="Consolas" FontSize="30" FontWeight="Bold" Height="138" Width="399" Grid.IsSharedSizeScope="True" Text="{Binding Path=MyValue}"/>
+        <TextBlock x:Name="timer" Grid.Column="1" HorizontalAlignment="Center" Margin="50.5,34,35.5,22" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Center" FontFamily="Consolas" FontSize="78" FontWeight="Bold" Height="138" Width="399" Grid.IsSharedSizeScope="True" Text="{Binding Path=MyValue}"/>
         <Button x:Name="Map_Button" HorizontalAlignment="Stretch" Margin="0" Grid.Row="1" VerticalAlignment="Stretch" Width="70" FontSize="16" Height="70" BorderBrush="Black" Foreground="White" Background="White" Click="Map_Button_Clicked" BorderThickness="8">
             <StackPanel>
                 <Image Source="images/mapicon.png" Height="42" Width="42" />

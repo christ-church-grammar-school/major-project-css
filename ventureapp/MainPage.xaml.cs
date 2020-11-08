@@ -48,11 +48,7 @@ namespace ventureapp
             int minutes = n / 60;
             n %= 60;
             int seconds = n;
-            return (day + " "
-                  + "days " + hour + " "
-              + "hours " + minutes + " "
-            + "minutes " + seconds + " "
-                            + "seconds ");
+            return (day + ":" + hour + ":" + minutes + ":" + seconds);
         }
 
         private void Worker_ProgressChanged(object sender, ProgressChangedEventArgs e)
