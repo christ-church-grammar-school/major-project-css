@@ -24,13 +24,13 @@
             </RadialGradientBrush>
         </Grid.Background>
         <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="INTERACTIVE MAP" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Foreground="White" Height="63" Width="403" Margin="70,30,200,414" Grid.ColumnSpan="2" Grid.Column="3"/>
-        <TextBlock Grid.ColumnSpan="3" Grid.Column="1" HorizontalAlignment="Left" Height="293" Margin="30,128,0,0" TextWrapping="Wrap" Text="Lorem ipsum dolor pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum." VerticalAlignment="Top" Width="219" Foreground="White"/>
-        <m:Map CredentialsProvider="IjlILWcnBQZ26DZ6yuVV~vuE96MoIuRAj2sJPXfAvfQ~AjuElcJyo6tPkKjGIbO0k6UBh9C1Mylxp8sQk0sXsJS72dds-GglFjIHFGpl5cIz" Mode="Aerial" Grid.Column="3" Margin="209,88,30,30" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5">
+        <TextBlock Grid.ColumnSpan="3" Grid.Column="1" HorizontalAlignment="Left" Height="117" Margin="30,310,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" Foreground="White" FontSize="16"><Run Text="Use the interactive map to view your route. "/><LineBreak/><Run/><LineBreak/><Run Text="Check the box representing which group you are in."/></TextBlock>
+        <m:Map x:Name="myMap" CredentialsProvider="IjlILWcnBQZ26DZ6yuVV~vuE96MoIuRAj2sJPXfAvfQ~AjuElcJyo6tPkKjGIbO0k6UBh9C1Mylxp8sQk0sXsJS72dds-GglFjIHFGpl5cIz" ZoomLevel="10" Center="-34.97558, 116.7341" Mode="AerialWithLabels" Grid.Column="3" Margin="209,88,30,30" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5">
             <m:Map.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
                     <SkewTransform/>
-                    <RotateTransform Angle="-0.231"/>
+                    <RotateTransform Angle="-0"/>
                     <TranslateTransform/>
                 </TransformGroup>
             </m:Map.RenderTransform>
@@ -45,5 +45,19 @@
                 </Style>
             </Button.Resources>
         </Button>
+        <CheckBox x:Name="group1" Grid.ColumnSpan="3" Content="Group 1" Grid.Column="1" HorizontalAlignment="Left" Height="16" Margin="30,111,0,0" VerticalAlignment="Top" Width="90" Checked="selectGroupOne"/>
+        <CheckBox x:Name="group2" Grid.ColumnSpan="2" Content="Group 2" Grid.Column="1" HorizontalAlignment="Left" Height="18" Margin="30,132,0,0" VerticalAlignment="Top" Width="72" Checked="selectGroupTwo"/>
+        <CheckBox x:Name="group3" Grid.ColumnSpan="2" Content="Group 3" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="30,155,0,0" VerticalAlignment="Top" Width="72" Checked="selectGroupThree"/>
+        <CheckBox x:Name="group4" Grid.ColumnSpan="2" Content="Group 4" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="30,178,0,0" VerticalAlignment="Top" Width="72" Checked="selectGroupFour"/>
+        <CheckBox x:Name="group5" Grid.ColumnSpan="2" Content="Group 5" Grid.Column="1" HorizontalAlignment="Left" Height="28" Margin="30,204,0,0" VerticalAlignment="Top" Width="62" Checked="selectGroupFive"/>
+        <CheckBox x:Name="group6" Grid.ColumnSpan="2" Content="Group 6" Grid.Column="1" HorizontalAlignment="Left" Height="21" Margin="30,232,0,0" VerticalAlignment="Top" Width="72" Checked="selectGroupSix"/>
+        <CheckBox x:Name="group7" Grid.ColumnSpan="2" Content="Group 7" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="30,258,0,0" VerticalAlignment="Top" Width="72" Checked="selectGroupSeven"/>
+        <CheckBox x:Name="group8" Content="Group 8" Grid.Column="3" HorizontalAlignment="Left" Height="26" Margin="23,111,0,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="1.819,-2.394" Checked="selectGroupEight"/>
+        <CheckBox x:Name="group9" Content="Group 9" Grid.Column="3" HorizontalAlignment="Left" Height="26" Margin="23,132,0,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="1.819,-2.394" Checked="selectGroupNine"/>
+        <CheckBox x:Name="group10" Content="Group 10" Grid.Column="3" HorizontalAlignment="Left" Height="26" Margin="23,155,0,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="1.819,-2.394" Checked="selectGroupTen"/>
+        <CheckBox x:Name="group11" Content="Group 11" Grid.Column="3" HorizontalAlignment="Left" Height="26" Margin="23,180,0,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="1.819,-2.394" Checked="selectGroupEleven"/>
+        <CheckBox x:Name="group12" Content="Group 12" Grid.Column="3" HorizontalAlignment="Left" Height="26" Margin="23,206,0,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="1.819,-2.394" Checked="selectGroup12"/>
+        <CheckBox Content="Group 13" Grid.Column="3" HorizontalAlignment="Left" Height="26" Margin="23,232,0,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="1.819,-2.394"/>
+        <CheckBox Content="Group 14" Grid.Column="3" HorizontalAlignment="Left" Height="26" Margin="23,258,0,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="1.819,-2.394"/>
     </Grid>
 </Page>
