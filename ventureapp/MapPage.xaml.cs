@@ -24,7 +24,7 @@ namespace ventureapp
     {
         //DISCLAIMER: Map routes are not 100% accurate and are based on the 2019 Venture Routes
 
-        //Had to do it this way as list/dictionary wouldnt work with the map control for some reason 
+        //Had to do it this way as list/dictionary wouldn't work with the map control 
 
         //latitude
         double lat1;
@@ -89,24 +89,7 @@ namespace ventureapp
              lon10 = 116.17334534;
              lon11 = 116.021281;
 
-            MapPolyline polyline = new MapPolyline();
-            polyline.Stroke = new SolidColorBrush(Colors.Blue);
-            polyline.StrokeThickness = 5;
-            polyline.Opacity = 0.7;
-            polyline.Locations = new LocationCollection() {
-            new Location(lat1, lon1),
-            new Location(lat2, lon2),
-            new Location(lat3, lon3),
-            new Location(lat4, lon4),
-            new Location(lat5, lon5),
-            new Location(lat6, lon6),
-            new Location(lat7, lon7),
-            new Location(lat8, lon8),
-            new Location(lat9, lon9),
-            new Location(lat10, lon10),
-            new Location(lat11, lon11)};
-
-            myMap.Children.Add(polyline);
+            drawLine();
 
         }
 
@@ -136,24 +119,7 @@ namespace ventureapp
              lon10 = 116.1925907;
              lon11 = 116.21805003;
 
-            MapPolyline polyline = new MapPolyline();
-            polyline.Stroke = new SolidColorBrush(Colors.Blue);
-            polyline.StrokeThickness = 5;
-            polyline.Opacity = 0.7;
-            polyline.Locations = new LocationCollection() {
-            new Location(lat1, lon1),
-            new Location(lat2, lon2),
-            new Location(lat3, lon3),
-            new Location(lat4, lon4),
-            new Location(lat5, lon5),
-            new Location(lat6, lon6),
-            new Location(lat7, lon7),
-            new Location(lat8, lon8),
-            new Location(lat9, lon9),
-            new Location(lat10, lon10),
-            new Location(lat11, lon11)};
-
-            myMap.Children.Add(polyline);
+            drawLine();
         }
 
         private void selectGroupThree(object sender, RoutedEventArgs e)
@@ -182,24 +148,7 @@ namespace ventureapp
              lon10 = 116.87899003;
              lon11 = 116.930422;
 
-            MapPolyline polyline = new MapPolyline();
-            polyline.Stroke = new SolidColorBrush(Colors.Blue);
-            polyline.StrokeThickness = 5;
-            polyline.Opacity = 0.7;
-            polyline.Locations = new LocationCollection() {
-            new Location(lat1, lon1),
-            new Location(lat2, lon2),
-            new Location(lat3, lon3),
-            new Location(lat4, lon4),
-            new Location(lat5, lon5),
-            new Location(lat6, lon6),
-            new Location(lat7, lon7),
-            new Location(lat8, lon8),
-            new Location(lat9, lon9),
-            new Location(lat10, lon10),
-            new Location(lat11, lon11)};
-
-            myMap.Children.Add(polyline);
+            drawLine();
         }
 
         private void selectGroupFour(object sender, RoutedEventArgs e)
@@ -228,24 +177,7 @@ namespace ventureapp
              lon10 = 116.9031911;
              lon11 = 116.89080104;
 
-            MapPolyline polyline = new MapPolyline();
-            polyline.Stroke = new SolidColorBrush(Colors.Blue);
-            polyline.StrokeThickness = 5;
-            polyline.Opacity = 0.7;
-            polyline.Locations = new LocationCollection() {
-            new Location(lat1, lon1),
-            new Location(lat2, lon2),
-            new Location(lat3, lon3),
-            new Location(lat4, lon4),
-            new Location(lat5, lon5),
-            new Location(lat6, lon6),
-            new Location(lat7, lon7),
-            new Location(lat8, lon8),
-            new Location(lat9, lon9),
-            new Location(lat10, lon10),
-            new Location(lat11, lon11)};
-
-            myMap.Children.Add(polyline);
+            drawLine();
         }
 
         private void selectGroupFive(object sender, RoutedEventArgs e)
@@ -274,24 +206,7 @@ namespace ventureapp
              lon10 = 116.44405718;
              lon11 = 116.62224326;
 
-            MapPolyline polyline = new MapPolyline();
-            polyline.Stroke = new SolidColorBrush(Colors.Blue);
-            polyline.StrokeThickness = 5;
-            polyline.Opacity = 0.7;
-            polyline.Locations = new LocationCollection() {
-            new Location(lat1, lon1),
-            new Location(lat2, lon2),
-            new Location(lat3, lon3),
-            new Location(lat4, lon4),
-            new Location(lat5, lon5),
-            new Location(lat6, lon6),
-            new Location(lat7, lon7),
-            new Location(lat8, lon8),
-            new Location(lat9, lon9),
-            new Location(lat10, lon10),
-            new Location(lat11, lon11)};
-
-            myMap.Children.Add(polyline);
+            drawLine();
         }
 
         private void selectGroupSix(object sender, RoutedEventArgs e)
@@ -320,24 +235,7 @@ namespace ventureapp
              lon10 = 116.17334534;
              lon11 = 116.21805003;
 
-            MapPolyline polyline = new MapPolyline();
-            polyline.Stroke = new SolidColorBrush(Colors.Blue);
-            polyline.StrokeThickness = 5;
-            polyline.Opacity = 0.7;
-            polyline.Locations = new LocationCollection() {
-            new Location(lat1, lon1),
-            new Location(lat2, lon2),
-            new Location(lat3, lon3),
-            new Location(lat4, lon4),
-            new Location(lat5, lon5),
-            new Location(lat6, lon6),
-            new Location(lat7, lon7),
-            new Location(lat8, lon8),
-            new Location(lat9, lon9),
-            new Location(lat10, lon10),
-            new Location(lat11, lon11)};
-
-            myMap.Children.Add(polyline);
+            drawLine();
         }
 
         private void selectGroupSeven(object sender, RoutedEventArgs e)
@@ -366,24 +264,7 @@ namespace ventureapp
              lon10 = 116.652399;
              lon11 = 116.72079996;
 
-            MapPolyline polyline = new MapPolyline();
-            polyline.Stroke = new SolidColorBrush(Colors.Blue);
-            polyline.StrokeThickness = 5;
-            polyline.Opacity = 0.7;
-            polyline.Locations = new LocationCollection() {
-            new Location(lat1, lon1),
-            new Location(lat2, lon2),
-            new Location(lat3, lon3),
-            new Location(lat4, lon4),
-            new Location(lat5, lon5),
-            new Location(lat6, lon6),
-            new Location(lat7, lon7),
-            new Location(lat8, lon8),
-            new Location(lat9, lon9),
-            new Location(lat10, lon10),
-            new Location(lat11, lon11)};
-
-            myMap.Children.Add(polyline);
+            drawLine();
         }
 
         private void selectGroupEight(object sender, RoutedEventArgs e)
@@ -412,24 +293,7 @@ namespace ventureapp
              lon10 = 116.17455137;
              lon11 = 116.16417149;
 
-            MapPolyline polyline = new MapPolyline();
-            polyline.Stroke = new SolidColorBrush(Colors.Blue);
-            polyline.StrokeThickness = 5;
-            polyline.Opacity = 0.7;
-            polyline.Locations = new LocationCollection() {
-            new Location(lat1, lon1),
-            new Location(lat2, lon2),
-            new Location(lat3, lon3),
-            new Location(lat4, lon4),
-            new Location(lat5, lon5),
-            new Location(lat6, lon6),
-            new Location(lat7, lon7),
-            new Location(lat8, lon8),
-            new Location(lat9, lon9),
-            new Location(lat10, lon10),
-            new Location(lat11, lon11)};
-
-            myMap.Children.Add(polyline);
+            drawLine();
         }
 
         private void selectGroupNine(object sender, RoutedEventArgs e)
@@ -458,24 +322,7 @@ namespace ventureapp
              lon10 = 116.37762565;
              lon11 = 116.32294702;
 
-            MapPolyline polyline = new MapPolyline();
-            polyline.Stroke = new SolidColorBrush(Colors.Blue);
-            polyline.StrokeThickness = 5;
-            polyline.Opacity = 0.7;
-            polyline.Locations = new LocationCollection() {
-            new Location(lat1, lon1),
-            new Location(lat2, lon2),
-            new Location(lat3, lon3),
-            new Location(lat4, lon4),
-            new Location(lat5, lon5),
-            new Location(lat6, lon6),
-            new Location(lat7, lon7),
-            new Location(lat8, lon8),
-            new Location(lat9, lon9),
-            new Location(lat10, lon10),
-            new Location(lat11, lon11)};
-
-            myMap.Children.Add(polyline);
+            drawLine();
         }
 
         private void selectGroupTen(object sender, RoutedEventArgs e)
@@ -501,24 +348,8 @@ namespace ventureapp
              lon8 = 116.87899003;
              lon9 = 117.067981;
              lon10 = 117.101798;
-            
-            MapPolyline polyline = new MapPolyline();
-            polyline.Stroke = new SolidColorBrush(Colors.Blue);
-            polyline.StrokeThickness = 5;
-            polyline.Opacity = 0.7;
-            polyline.Locations = new LocationCollection() {
-            new Location(lat1, lon1),
-            new Location(lat2, lon2),
-            new Location(lat3, lon3),
-            new Location(lat4, lon4),
-            new Location(lat5, lon5),
-            new Location(lat6, lon6),
-            new Location(lat7, lon7),
-            new Location(lat8, lon8),
-            new Location(lat9, lon9),
-            new Location(lat10, lon10)};
 
-            myMap.Children.Add(polyline);
+            drawLine();
         }
 
         private void selectGroupEleven(object sender, RoutedEventArgs e)
@@ -547,24 +378,7 @@ namespace ventureapp
              lon10 = 117.067981;
              lon11 = 117.101798;
 
-            MapPolyline polyline = new MapPolyline();
-            polyline.Stroke = new SolidColorBrush(Colors.Blue);
-            polyline.StrokeThickness = 5;
-            polyline.Opacity = 0.7;
-            polyline.Locations = new LocationCollection() {
-            new Location(lat1, lon1),
-            new Location(lat2, lon2),
-            new Location(lat3, lon3),
-            new Location(lat4, lon4),
-            new Location(lat5, lon5),
-            new Location(lat6, lon6),
-            new Location(lat7, lon7),
-            new Location(lat8, lon8),
-            new Location(lat9, lon9),
-            new Location(lat10, lon10),
-            new Location(lat11, lon11)};
-
-            myMap.Children.Add(polyline);
+            drawLine();
         }
 
         private void selectGroup12(object sender, RoutedEventArgs e)
@@ -593,24 +407,7 @@ namespace ventureapp
              lon10 = 116.11854781;
              lon11 = 116.12740989;
 
-            MapPolyline polyline = new MapPolyline();
-            polyline.Stroke = new SolidColorBrush(Colors.Blue);
-            polyline.StrokeThickness = 5;
-            polyline.Opacity = 0.7;
-            polyline.Locations = new LocationCollection() {
-            new Location(lat1, lon1),
-            new Location(lat2, lon2),
-            new Location(lat3, lon3),
-            new Location(lat4, lon4),
-            new Location(lat5, lon5),
-            new Location(lat6, lon6),
-            new Location(lat7, lon7),
-            new Location(lat8, lon8),
-            new Location(lat9, lon9),
-            new Location(lat10, lon10),
-            new Location(lat11, lon11)};
-
-            myMap.Children.Add(polyline);
+            drawLine();
         }
 
         private void selectGroupThirteen(object sender, RoutedEventArgs e)
@@ -637,23 +434,7 @@ namespace ventureapp
              lon9 = 117.16019777;
              lon10 = 117.208564;
 
-            MapPolyline polyline = new MapPolyline();
-            polyline.Stroke = new SolidColorBrush(Colors.Blue);
-            polyline.StrokeThickness = 5;
-            polyline.Opacity = 0.7;
-            polyline.Locations = new LocationCollection() {
-            new Location(lat1, lon1),
-            new Location(lat2, lon2),
-            new Location(lat3, lon3),
-            new Location(lat4, lon4),
-            new Location(lat5, lon5),
-            new Location(lat6, lon6),
-            new Location(lat7, lon7),
-            new Location(lat8, lon8),
-            new Location(lat9, lon9),
-            new Location(lat10, lon10)};
-
-            myMap.Children.Add(polyline);
+            drawLine();
 
         }
 
@@ -683,17 +464,22 @@ namespace ventureapp
              lon10 = 116.37227607;
              lon11 = 116.3908787;
 
+            drawLine();
+        }
+
+        public void drawLine()
+        {
             MapPolyline polyline = new MapPolyline();
             polyline.Stroke = new SolidColorBrush(Colors.Blue);
             polyline.StrokeThickness = 5;
-            polyline.Opacity = 0.7;
+            polyline.Opacity = 0.4;
             polyline.Locations = new LocationCollection() {
             new Location(lat1, lon1),
             new Location(lat2, lon2),
             new Location(lat3, lon3),
             new Location(lat4, lon4),
             new Location(lat5, lon5),
-            new Location(lat6, lon6),
+            new Location(lat6, lon6),s
             new Location(lat7, lon7),
             new Location(lat8, lon8),
             new Location(lat9, lon9),
@@ -701,32 +487,31 @@ namespace ventureapp
 
             myMap.Children.Add(polyline);
         }
+
+        public void removeLine(object sender, RoutedEventArgs e)
+        {
+            myMap.Children.Clear();
+            group1.IsChecked = false;
+            group2.IsChecked = false;
+            group3.IsChecked = false;
+            group4.IsChecked = false;
+            group5.IsChecked = false;
+            group6.IsChecked = false;
+            group7.IsChecked = false;
+            group8.IsChecked = false;
+            group9.IsChecked = false;
+            group10.IsChecked = false;
+            group11.IsChecked = false;
+            group12.IsChecked = false;
+            group13.IsChecked = false;
+            group14.IsChecked = false;
+            remove.IsChecked = false;
+        }
     }
+
+
+
 }
 
-/*
-double lat1;
-double lat2;
-double lat3;
-double lat4;
-double lat5;
-double lat6;
-double lat7;
-double lat8;
-double lat9;
-double lat10;
-double lat11;
 
-double lon1;
-double lon2;
-double lon3;
-double lon4;
-double lon5;
-double lon6;
-double lon7;
-double lon8;
-double lon9;
-double lon10;
-double lon11;
-*/
 
