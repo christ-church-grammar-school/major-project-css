@@ -27,7 +27,7 @@ namespace ventureapp
             WeightTotal.Text = "Current Total Weight = \n";
             ItemsTotal.Text = "Items Packed Include: \n";
             Required_Items.Text = "Required Items Include: \n";
-            Limit.Text = "The Maximum Weight is 75kg\n";
+            Limit.Text = "The Maximum Weight is 25kg\n";
             State.Text = "You Are Currently:\n";
 
             Include();
@@ -126,7 +126,7 @@ namespace ventureapp
         {
             State.Text = "You Are Currently:\n";
             int weight = Convert.ToInt32(WNum.Text);
-            int totalweight = 75 - weight;
+            int totalweight = 25 - weight;
             if (totalweight == 0)
             {
                 State.Text = "You Are Currently:\n" + "Exactly Full on Pack Weight\n" + "You Can Pack No More\n";
