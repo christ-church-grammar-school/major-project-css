@@ -243,7 +243,7 @@ namespace ventureapp
              lat1 = -34.49983265;
              lat2 = -34.55931131;
              lat3 = -34.66401989;
-             lat4 = -34.97418945;
+             lat4 = -34.72002785;
              lat5 = -34.82967806;
              lat6 = -34.90051587;
              lat7 = -34.93678839;
@@ -479,7 +479,7 @@ namespace ventureapp
             new Location(lat3, lon3),
             new Location(lat4, lon4),
             new Location(lat5, lon5),
-            new Location(lat6, lon6),s
+            new Location(lat6, lon6),
             new Location(lat7, lon7),
             new Location(lat8, lon8),
             new Location(lat9, lon9),
