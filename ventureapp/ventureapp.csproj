@@ -139,9 +139,6 @@
     <Compile Include="FoodPage.xaml.cs">
       <DependentUpon>FoodPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="QuizPage.xaml.cs">
-      <DependentUpon>QuizPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="WeightCalcInfoPage.xaml.cs">
       <DependentUpon>WeightCalcInfoPage.xaml</DependentUpon>
     </Compile>
@@ -171,10 +168,6 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Page Include="MapPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="QuizPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

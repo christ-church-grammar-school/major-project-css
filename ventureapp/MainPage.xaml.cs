@@ -96,10 +96,5 @@ namespace ventureapp
         {
             this.NavigationService.Navigate(new Uri("WeightCalcPage.xaml", UriKind.Relative));
         }
-
-        private void Quiz_Button_Clicked(object sender, RoutedEventArgs e)
-        {
-            this.NavigationService.Navigate(new Uri("QuizPage.xaml", UriKind.Relative));
-        }
     }
 }
