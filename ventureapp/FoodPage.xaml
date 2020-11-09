@@ -22,18 +22,8 @@
                 <GradientStop Color="#C001FD" Offset="1.0" />
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="RECIPES" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Foreground="White" Height="66" Width="243" Margin="118,42,312,342" Grid.ColumnSpan="2" Grid.Column="3"/>
-        <Image Source="images/recipe.jpeg" HorizontalAlignment="Left" Height="140" Margin="96,28,0,0" VerticalAlignment="Top" Width="188" RenderTransformOrigin="0.5,0.5" Cursor="" OpacityMask="#FF9C4E4E" Grid.Column="4">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-0.099"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
-        <TextBlock Grid.ColumnSpan="2" Grid.Column="3" HorizontalAlignment="Left" Height="294" Margin="0,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="554" Foreground="White" FontSize="14"><Run Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas congue quisque egestas diam. Turpis cursus in hac habitasse platea dictumst quisque sagittis. Amet purus gravida quis blandit turpis cursus in hac habitasse. Placerat vestibulum lectus mauris ultrices. Mattis vulputate enim nulla aliquet porttitor lacus. Eu ultrices vitae auctor eu augue ut lectus. Bibendum arcu vitae elementum curabitur. Pharetra et ultrices neque ornare aenean euismod. Aliquet risus feugiat in ante metus dictum."/><LineBreak/><Run/><LineBreak/><Run Text="Nulla at volutpat diam ut venenatis. Erat imperdiet sed euismod nisi porta lorem. Dictumst quisque sagittis purus sit amet volutpat consequat mauris. Enim tortor at auctor urna nunc. Congue nisi vitae suscipit tellus mauris a diam. Ornare lectus sit amet est. Et malesuada fames ac turpis egestas integer eget aliquet. Morbi tristique senectus et netus et malesuada. Elementum sagittis vitae et leo duis ut. Amet facilisis magna etiam tempor."/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Cooking Guidelines" VerticalAlignment="Center" FontFamily="Consolas" FontSize="48" FontWeight="Bold" Foreground="White" Height="133" Width="487" Margin="53,23,133,351" Grid.ColumnSpan="2" Grid.Column="3"/>
+        <TextBlock Grid.ColumnSpan="2" Grid.Column="3" HorizontalAlignment="Left" Height="294" Margin="0,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="554" Foreground="White" FontSize="14"><Run FontWeight="Bold" FontSize="20" Text="TRANGIA SAFETY:"/><LineBreak/><Run FontWeight="Bold"/><LineBreak/><Run Text="- Designate a flat area for the use of the trangia (keep this away from flammable objects like tents)"/><LineBreak/><Run Text="- DO NOT keep the fuel near the trangia while it is lit"/><LineBreak/><Run Text="- Form a group cooking circle with your trangia stoves"/><LineBreak/><Run Text="- NEVER step over a trangia"/><LineBreak/><Run Text="- Do not store fuel in the canister after cooking"/><LineBreak/><Run/><LineBreak/><Run FontWeight="Bold" FontSize="20" Text="GENERAL SAFETY:"/><LineBreak/><Run FontWeight="Bold"/><LineBreak/><Run Text="- Wash your hands before preparing any meal"/><LineBreak/><Run Text="- Collect all the food to a central location before you start to prepare it"/><LineBreak/><Run Text="- Take ALL food scraps with you"/><LineBreak/><Run Text="- Wash up away from any creeks or rivers, and NEVER wash up using a creek or river"/><LineBreak/><Run/></TextBlock>
         <Button x:Name="Home_Button" HorizontalAlignment="Stretch" Margin="0,23,7,414" Grid.Row="0" VerticalAlignment="Stretch" Width="70" FontSize="16" Height="70" BorderBrush="Black" Foreground="White" Background="White" Click="Home_Button_Clicked" BorderThickness="8" Grid.Column="1">
             <StackPanel>
                 <Image Source="images/House.png" />
