@@ -218,9 +218,7 @@
     <Resource Include="images\back.png" />
     <Resource Include="images\backpack.png" />
     <Resource Include="images\House.png" />
-    <Resource Include="images\map-placeholder.PNG" />
     <Resource Include="images\QuestionMark.png" />
-    <Resource Include="images\quiz-placeholder.PNG" />
     <Resource Include="images\recipe.jpeg" />
   </ItemGroup>
   <ItemGroup>
@@ -235,7 +233,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="images\calc.png" />
-    <Resource Include="images\quiz.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -302,7 +299,10 @@
     </PublishFile>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="whitescreen.jpg" />
+    <Resource Include="compeeds.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="blisters.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
