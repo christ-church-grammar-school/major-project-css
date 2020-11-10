@@ -65,6 +65,22 @@ namespace ventureapp
 
         private void selectGroupOne(object sender, RoutedEventArgs e)
         {
+            group2.IsChecked = false;
+            group3.IsChecked = false;
+            group4.IsChecked = false;
+            group5.IsChecked = false;
+            group6.IsChecked = false;
+            group7.IsChecked = false;
+            group8.IsChecked = false;
+            group9.IsChecked = false;
+            group10.IsChecked = false;
+            group11.IsChecked = false;
+            group12.IsChecked = false;
+            group13.IsChecked = false;
+            group14.IsChecked = false;
+            remove.IsChecked = false;
+            myMap.Children.Clear();
+
              lat1 = -35.04561701;
              lat2 = -35.0251870416;
              lat3 = -34.995122;
@@ -95,6 +111,22 @@ namespace ventureapp
 
         private void selectGroupTwo(object sender, RoutedEventArgs e)
         {
+            group1.IsChecked = false;
+            group3.IsChecked = false;
+            group4.IsChecked = false;
+            group5.IsChecked = false;
+            group6.IsChecked = false;
+            group7.IsChecked = false;
+            group8.IsChecked = false;
+            group9.IsChecked = false;
+            group10.IsChecked = false;
+            group11.IsChecked = false;
+            group12.IsChecked = false;
+            group13.IsChecked = false;
+            group14.IsChecked = false;
+            remove.IsChecked = false;
+            myMap.Children.Clear();
+
              lat1 = -35.04750998;
              lat2 = -34.97418945;
              lat3 = -34.969752;
@@ -124,6 +156,22 @@ namespace ventureapp
 
         private void selectGroupThree(object sender, RoutedEventArgs e)
         {
+            group1.IsChecked = false;
+            group2.IsChecked = false;
+            group4.IsChecked = false;
+            group5.IsChecked = false;
+            group6.IsChecked = false;
+            group7.IsChecked = false;
+            group8.IsChecked = false;
+            group9.IsChecked = false;
+            group10.IsChecked = false;
+            group11.IsChecked = false;
+            group12.IsChecked = false;
+            group13.IsChecked = false;
+            group14.IsChecked = false;
+            remove.IsChecked = false;
+            myMap.Children.Clear();
+
              lat1 = -34.76383762;
              lat2 = -34.856539;
              lat3 = -34.90051587;
@@ -153,6 +201,22 @@ namespace ventureapp
 
         private void selectGroupFour(object sender, RoutedEventArgs e)
         {
+            group1.IsChecked = false;
+            group2.IsChecked = false;
+            group3.IsChecked = false;
+            group5.IsChecked = false;
+            group6.IsChecked = false;
+            group7.IsChecked = false;
+            group8.IsChecked = false;
+            group9.IsChecked = false;
+            group10.IsChecked = false;
+            group11.IsChecked = false;
+            group12.IsChecked = false;
+            group13.IsChecked = false;
+            group14.IsChecked = false;
+            remove.IsChecked = false;
+            myMap.Children.Clear();
+
              lat1 = -34.82967806;
              lat2 = -34.76383762;
              lat3 = -34.83271935;
@@ -182,6 +246,22 @@ namespace ventureapp
 
         private void selectGroupFive(object sender, RoutedEventArgs e)
         {
+            group1.IsChecked = false;
+            group2.IsChecked = false;
+            group3.IsChecked = false;
+            group4.IsChecked = false;
+            group6.IsChecked = false;
+            group7.IsChecked = false;
+            group8.IsChecked = false;
+            group9.IsChecked = false;
+            group10.IsChecked = false;
+            group11.IsChecked = false;
+            group12.IsChecked = false;
+            group13.IsChecked = false;
+            group14.IsChecked = false;
+            remove.IsChecked = false;
+            myMap.Children.Clear();
+
              lat1 = -34.9998158;
              lat2 = -35.03882088;
              lat3 = -35.033431;
@@ -211,6 +291,22 @@ namespace ventureapp
 
         private void selectGroupSix(object sender, RoutedEventArgs e)
         {
+            group1.IsChecked = false;
+            group2.IsChecked = false;
+            group3.IsChecked = false;
+            group4.IsChecked = false;
+            group5.IsChecked = false;
+            group7.IsChecked = false;
+            group8.IsChecked = false;
+            group9.IsChecked = false;
+            group10.IsChecked = false;
+            group11.IsChecked = false;
+            group12.IsChecked = false;
+            group13.IsChecked = false;
+            group14.IsChecked = false;
+            remove.IsChecked = false;
+            myMap.Children.Clear();
+             
              lat1 = -34.97418945;
              lat2 = -34.969752;
              lat3 = -35.01144231;
@@ -240,6 +336,22 @@ namespace ventureapp
 
         private void selectGroupSeven(object sender, RoutedEventArgs e)
         {
+            group1.IsChecked = false;
+            group2.IsChecked = false;
+            group3.IsChecked = false;
+            group4.IsChecked = false;
+            group5.IsChecked = false;
+            group6.IsChecked = false;
+            group8.IsChecked = false;
+            group9.IsChecked = false;
+            group10.IsChecked = false;
+            group11.IsChecked = false;
+            group12.IsChecked = false;
+            group13.IsChecked = false;
+            group14.IsChecked = false;
+            remove.IsChecked = false;
+            myMap.Children.Clear();
+
              lat1 = -34.49983265;
              lat2 = -34.55931131;
              lat3 = -34.66401989;
@@ -269,6 +381,23 @@ namespace ventureapp
 
         private void selectGroupEight(object sender, RoutedEventArgs e)
         {
+            group1.IsChecked = false;
+            group2.IsChecked = false;
+            group3.IsChecked = false;
+            group4.IsChecked = false;
+            group5.IsChecked = false;
+            group6.IsChecked = false;
+            group7.IsChecked = false;
+            group9.IsChecked = false;
+            group10.IsChecked = false;
+            group11.IsChecked = false;
+            group12.IsChecked = false;
+            group13.IsChecked = false;
+            group14.IsChecked = false;
+            remove.IsChecked = false;
+
+            myMap.Children.Clear();
+
              lat1 = -34.995122;
              lat2 = -35.023998;
              lat3 = -35.00417571;
@@ -298,6 +427,23 @@ namespace ventureapp
 
         private void selectGroupNine(object sender, RoutedEventArgs e)
         {
+            group1.IsChecked = false;
+            group2.IsChecked = false;
+            group3.IsChecked = false;
+            group4.IsChecked = false;
+            group5.IsChecked = false;
+            group6.IsChecked = false;
+            group7.IsChecked = false;
+            group8.IsChecked = false;
+            group10.IsChecked = false;
+            group11.IsChecked = false;
+            group12.IsChecked = false;
+            group13.IsChecked = false;
+            group14.IsChecked = false;
+            remove.IsChecked = false;
+
+            myMap.Children.Clear();
+
              lat1 = -35.033431;
              lat2 = -35.04750998;
              lat3 = -34.97418945;
@@ -327,6 +473,23 @@ namespace ventureapp
 
         private void selectGroupTen(object sender, RoutedEventArgs e)
         {
+            group1.IsChecked = false;
+            group2.IsChecked = false;
+            group3.IsChecked = false;
+            group4.IsChecked = false;
+            group5.IsChecked = false;
+            group6.IsChecked = false;
+            group7.IsChecked = false;
+            group8.IsChecked = false;
+            group9.IsChecked = false;
+            group11.IsChecked = false;
+            group12.IsChecked = false;
+            group13.IsChecked = false;
+            group14.IsChecked = false;
+            remove.IsChecked = false;
+
+            myMap.Children.Clear();
+
              lat1 = -34.84135003;
              lat2 = -34.878491;
              lat3 = -34.93678839;
@@ -354,6 +517,22 @@ namespace ventureapp
 
         private void selectGroupEleven(object sender, RoutedEventArgs e)
         {
+            group1.IsChecked = false;
+            group2.IsChecked = false;
+            group3.IsChecked = false;
+            group4.IsChecked = false;
+            group5.IsChecked = false;
+            group6.IsChecked = false;
+            group7.IsChecked = false;
+            group8.IsChecked = false;
+            group9.IsChecked = false;
+            group10.IsChecked = false;
+            group12.IsChecked = false;
+            group13.IsChecked = false;
+            group14.IsChecked = false;
+            remove.IsChecked = false;
+            myMap.Children.Clear();
+
              lat1 = -34.856539;
              lat2 = -34.90051587;
              lat3 = -34.8249218;
@@ -383,6 +562,22 @@ namespace ventureapp
 
         private void selectGroup12(object sender, RoutedEventArgs e)
         {
+            group1.IsChecked = false;
+            group2.IsChecked = false;
+            group3.IsChecked = false;
+            group4.IsChecked = false;
+            group5.IsChecked = false;
+            group6.IsChecked = false;
+            group7.IsChecked = false;
+            group8.IsChecked = false;
+            group9.IsChecked = false;
+            group10.IsChecked = false;
+            group11.IsChecked = false;
+            group13.IsChecked = false;
+            group14.IsChecked = false;
+            remove.IsChecked = false;
+            myMap.Children.Clear();
+
              lat1 = -34.969752;
              lat2 = -35.01144231;
              lat3 = -35.023998;
@@ -411,8 +606,25 @@ namespace ventureapp
         }
 
         private void selectGroupThirteen(object sender, RoutedEventArgs e)
-        {   
-             lat1 = -34.93678839;
+        {
+            group1.IsChecked = false;
+            group2.IsChecked = false;
+            group3.IsChecked = false;
+            group4.IsChecked = false;
+            group5.IsChecked = false;
+            group6.IsChecked = false;
+            group7.IsChecked = false;
+            group8.IsChecked = false;
+            group9.IsChecked = false;
+            group10.IsChecked = false;
+            group11.IsChecked = false;
+            group12.IsChecked = false;
+            group14.IsChecked = false;
+            remove.IsChecked = false;
+
+            myMap.Children.Clear();
+
+            lat1 = -34.93678839;
              lat2 = -35.00417571;
              lat3 = -35.030016;
              lat4 = -35.030016;
@@ -440,7 +652,24 @@ namespace ventureapp
 
         private void selectGroup14(object sender, RoutedEventArgs e)
         {
-             lat1 = -35.03882088;
+            group1.IsChecked = false;
+            group2.IsChecked = false;
+            group3.IsChecked = false;
+            group4.IsChecked = false;
+            group5.IsChecked = false;
+            group6.IsChecked = false;
+            group7.IsChecked = false;
+            group8.IsChecked = false;
+            group9.IsChecked = false;
+            group10.IsChecked = false;
+            group11.IsChecked = false;
+            group12.IsChecked = false;
+            group13.IsChecked = false;
+            remove.IsChecked = false;
+
+            myMap.Children.Clear();
+
+            lat1 = -35.03882088;
              lat2 = -34.94401359;
              lat3 = -35.04750998;
              lat4 = -34.97418945;
