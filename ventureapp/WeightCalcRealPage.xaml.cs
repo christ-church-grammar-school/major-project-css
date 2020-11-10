@@ -37,9 +37,9 @@ namespace ventureapp
 
         public void Include()
         {
-            int weight = 0;
+            double weight = 0;
 
-            Dictionary<string, int> items = new Dictionary<string, int>();
+            Dictionary<string, double> items = new Dictionary<string, double>();
 
             if (AddOn.Text == "")
             {
@@ -59,7 +59,7 @@ namespace ventureapp
                 var removel = new[] { '=', ',', ' ', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
                 string itemadd = add.TrimEnd(removen);
                 string weightadd = add.TrimStart(removel);
-                int weightaddint = Convert.ToInt32(weightadd);
+                double weightaddint = Convert.ToDouble(weightadd);
 
                 items.Add(itemadd, weightaddint);
 
@@ -75,8 +75,8 @@ namespace ventureapp
                 string ChangeWeight = WeightTotal.Text;
                 string ChangeWeightS = ChangeWeight.TrimStart(removel);
                 string ChangeWeightE = ChangeWeightS.TrimEnd(removel);
-                int ChangeWeightInt = Convert.ToInt32(ChangeWeightE);
-                int change = ChangeWeightInt + weight;
+                double ChangeWeightInt = Convert.ToDouble(ChangeWeightE);
+                double change = ChangeWeightInt + weight;
                 WNum.Text = Convert.ToString(change);
                 WeightTotal.Text = "Current Total Weight = " + change + "kg";
 
@@ -125,15 +125,15 @@ namespace ventureapp
         public void StatusCheck()
         {
             State.Text = "You Are Currently:\n";
-            int weight = Convert.ToInt32(WNum.Text);
-            int totalweight = 25 - weight;
+            double weight = Convert.ToDouble(WNum.Text);
+            double totalweight = 25 - weight;
             if (totalweight == 0)
             {
                 State.Text = "You Are Currently:\n" + "Exactly Full on Pack Weight\n" + "You Can Pack No More\n";
             }
             if (totalweight < 0)
             {
-                int leftover = totalweight - (2 * totalweight);
+                double leftover = totalweight - (2 * totalweight);
                 State.Text = "You Are Currently:\n" + leftover + "kg Over the Pack Weight Limit\n" + "You Must Remove Some Items\n";
             }
             if (totalweight > 0)
