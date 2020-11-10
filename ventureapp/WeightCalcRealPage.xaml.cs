@@ -55,7 +55,7 @@ namespace ventureapp
             else
             {
                 string add = AddOn.Text;
-                var removen = new[] { ',', ' ', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0' };
+                var removen = new[] { ',', ' ', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.' };
                 var removel = new[] { '=', ',', ' ', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
                 string itemadd = add.TrimEnd(removen);
                 string weightadd = add.TrimStart(removel);
@@ -65,10 +65,10 @@ namespace ventureapp
 
                 for (int i = 0; i < items.Count; i++)
                 {
-                    int num = Convert.ToInt32(Number.Text);
+                    double num = Convert.ToDouble(Number.Text);
                     weight = weight + items.ElementAt(i).Value;
                     ItemsTotal.Text = ItemsTotal.Text + num + ". " + items.ElementAt(i).Key + " (" + items.ElementAt(i).Value + "kg)\n";
-                    int newnum = num + 1;
+                    double newnum = num + 1;
                     Number.Text = Convert.ToString(newnum);
                 }
 
